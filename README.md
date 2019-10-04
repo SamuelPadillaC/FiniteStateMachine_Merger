@@ -11,15 +11,18 @@ These are things you must know to understand the program:
 #############################
 # To Run the program:
 1. Download the repository in a machine with Python installed.
-2. Run the script from the command line using "python \<name of the program\>"
+2. Run the script from the command line using "python Merge.py"
 3. Pass in the proper arguments as listed below
 4. Make sure the Merge.py file is in the same directory as the file Minimize.py. Merge.py includes and calls functions from Minimize.py. If both files are not in the same directory, the program will not run.
 
 #############################
-# Arguments - Minimizer.py receives 3 command line arguments in the following order:
+# Arguments - Merge.py receives 5 command line arguments in the following order:
 # A Definition File
 
-The Definition File configures the machine following the instructions in the Description file (description.pdf).
+This Definition File configures Machine 1, following the instructions in the Description file (description.pdf).
+# Another Definition File
+
+This Definition File configures Machine 2, following the instructions in the Description file (description.pdf).
 # The output FSA file name
 
 The program creates an FSA definition file following the instructions in the Descrption file (description.pdf). The name of the file created is the name passed in as this argument.
