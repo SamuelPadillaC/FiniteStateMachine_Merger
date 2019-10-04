@@ -1,5 +1,5 @@
 # FiniteStateMachine_Merger
-This is a Finite State Machine Merger. The program merges virtual machines and takes the Union, Intersection, and Substraction of the Accepting States of both machines
+This is a Finite State Machine Merger. The program merges virtual machines and creates 3 new Machine Definition files (see description.pdf to understand the format of these files). The 3 new machine definition files are the Union, the Intersection, and the Substraction of each machine.
 
 #############################
 # Must-Knows & Pre-reqs
@@ -12,8 +12,8 @@ These are things you must know to understand the program:
 # To Run the program:
 1. Download the repository in a machine with Python installed.
 2. Run the script from the command line using "python Merge.py"
-3. Pass in the proper arguments as listed below
-4. Make sure the Merge.py file is in the same directory as the file Minimize.py. Merge.py includes and calls functions from Minimize.py. If both files are not in the same directory, the program will not run.
+3. Make sure the Merge.py file is in the same directory as the file Minimize.py. Merge.py includes and calls functions from Minimize.py. If both files are not in the same directory, the program will not run.
+4. Pass in the proper arguments as listed below
 
 #############################
 # Arguments - Merge.py receives 5 command line arguments in the following order:
@@ -23,12 +23,15 @@ This Definition File configures Machine 1, following the instructions in the Des
 # Another Definition File
 
 This Definition File configures Machine 2, following the instructions in the Description file (description.pdf).
-# The output FSA file name
+# The output file name for the Union Machine
 
-The program creates an FSA definition file following the instructions in the Descrption file (description.pdf). The name of the file created is the name passed in as this argument.
-# A record file name
+This will be the file name containing the Definition File of the machine resulting from the UNION of both machines.
+# The output file name for the Intersection Machine
 
-The scripts creates a record/log file where it writes down all the modifications it does to the machine. The name of the record file is the name passed in as this argument.
+This will be the file name containing the Definition File of the machine resulting from the INTERSECTION of both machines.
+# The output file name for the Substraction Machine
+
+This will be the file name containing the Definition File of the machine resulting from the SUBSTRACTION of Machine1 minus Machine2.
 
 ############################
 ############################
