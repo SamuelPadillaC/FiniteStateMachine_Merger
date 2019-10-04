@@ -3,16 +3,17 @@ This is a Finite State Machine Merger. The program merges virtual machines and t
 
 #############################
 # Must-Knows & Pre-reqs
-These are things you must know to understand the script:
+These are things you must know to understand the program:
 1. Understand what a Finite State Machine is and how it functions.
-2. Understand what is an unreachable state in an undirected graph.
-3. Understand the concept of a redundant state and the process to collapse states
+2. Have a basic understanding of the merging process for Finite State Machines.
+3. Have a basic knowledge of set operaitons.
 
 #############################
 # To Run the program:
 1. Download the repository in a machine with Python installed.
 2. Run the script from the command line using "python \<name of the program\>"
-3. Pass in the proper arguments as listed below 
+3. Pass in the proper arguments as listed below
+4. Make sure the Merge.py file is in the same directory as the file Minimize.py. Merge.py includes and calls functions from Minimize.py. If both files are not in the same directory, the program will not run.
 
 #############################
 # Arguments - Minimizer.py receives 3 command line arguments in the following order:
