@@ -1,6 +1,11 @@
 # FiniteStateMachine_Merger
 This is a Finite State Machine Merger. The program merges virtual machines and creates 3 new Machine Definition files (see description.pdf to understand the format of these files). The 3 new machine definition files are the Union, the Intersection, and the Substraction of each machine.
 
+# Note
+This program is a very good example of modularity and efficiency.
+Not only is a very short program (less than 300 lines) performing a fairly complex operation, but the time complexity of the main algorith is O(1).
+The only loops in the program are execution loops. In the main algorithm, there is no linear search happening, it all works through tabular lookup, making the main algorithm have an O(1) time complexity.
+
 ########################################################################
 # Must-Knows & Pre-reqs
 These are things you must know to understand the program:
